@@ -1,0 +1,60 @@
+body {
+    background-color: #dfdede;
+}
+
+main {
+    background-color: #ffffff;
+    padding-top: 114px;
+    padding-bottom: 114px;
+    padding-left: 225px;
+    margin-bottom: 0rem;
+}
+
+footer {
+    background-color: #005677;
+    color: #ffffff;
+    text-align:center;
+    height: 37px;
+    margin-top: 0rem;
+}
+
+section {
+    margin: auto;
+}
+
+h1,
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #005677;
+    background-color: #C4C4C4;
+}
+
+h1 {
+    text-align: center;
+    margin: 0rem;
+}
+
+.foto {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+h2 {
+    width: 1041px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+ul li{
+    font-size: 15px;
+}
+
+.listatipo2{
+list-style-type: none;
+
+}
+
+footer p {
+    margin: 0rem;
+}
