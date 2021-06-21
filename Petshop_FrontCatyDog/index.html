@@ -3,61 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <title>Front Cat & Dog</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <header>
-       <div><p>Grandes ofertas en comederos</p> <p>Español</p> <p>ARG$</p>
+       <nav class="sobmenu">
+           <span>Grandes ofertas en comederos</span> 
+           <ul>
+               <li>Español</li>
+               <li>ARG$</li>
+           </ul>
+        
+        </nav>
+        <nav class="menuprincipal">
 
-        <img src="img/Logo.png" alt="Logo de Front Cat & Dog" width="166">
-        <nav>
+            <img src="img/Logo.png" alt="Logo de Front Cat & Dog" width="166">
             <ul type="none">
-                <li><a href="">Categorias</a></li>
-                <li><a href="">Pets</a></li>
-                <li><a href="">Nosotros</a></li>
-                 <li><a href="">Contactanos</a></li>
+                <li><img src="img/pata_iconBlanco.png"><a href="">Categorias</a></li>
+                <li><img src="img/pata_iconBlanco.png"><a href="">Pets</a></li>
+                <li><img src="img/pata_iconBlanco.png"><a href="">Nosotros</a></li>
+                 <li><img src="img/pata_iconBlanco.png"><a href="">Contactanos</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <section><img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="Banner azul principal con plato y osos de pet">
-        <p><b>¡Es un placer tenerte aquí!</b></p>
+        <section class="banner">
+       
+        <h2>¡Es un placer tenerte aquí!</h2>
         <p>¡Comederos en descuento!</p>
-        <p>COMEDEROS</p> </section>
+        <p class="butonamarillo">Comederos</p> 
+    </section class=productosdestacados>
 
         <section>
-            <h1> Productos Destacados </h1>
-            <a href="">Comederos</a> <span>-</span>  <a href="">Accesorios</a> <span>-</span>  <a href="">Comida</a>
+           <div> 
+            <img src="img/pata_amarilla.png" alt="Vector con pata de perro amarilla">   
+            <h3> Productos Destacados </h3>
+            <a href="">Comederos </a> <span> - </span>  <a href=""> Accesorios </a> <span> - </span>  <a href=""> Comida</a>
+        </div>
+
         <article>
             <img src="img/churrasquito.png" alt="Producto 1 - imagen de churrasquito">
-            <h3>Juguete Churrasquito</h3>
+            <h4>Juguete Churrasquito</h4>
             <p>$150</p>
         </article>
 
         <article>
             <img src="img/comedero.png" alt="Producto 2 - imagen de comedero">
-            <h3>Comedero para perro</h3>
+            <h4>Comedero para perro</h4>
             <p>$150</p>
         </article>
 
         <article>
-            <img src="img/Huesito.png" alt="Producto 3 - imagen de huesitos">
-            <h3>Juguete Usito</h3>
+            <img src="img/Huesito.png" alt="Producto h4 - imagen de huesitos">
+            <h4>Juguete Huesito</h4>
             <p>$150</p>
         </article>
         </section>
 
         <section>
-            <h4>Contactanos</h4>
+            <h3>Contactanos</h3>
             <article>
                 <form>
 
+                    <p class="butonamarillo">Enviar</p>
                 </form>
             </article>
         </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+        <img src="img/Logo-footer.png" alt="Logo de Front Cat & Dog" width="166">
+
+        <ul type="none">
+            <li><img src="img/Icono-local.png"> Localidad <p>Calle - provincia</p></li>
+            <li><img src="img/Icono-tel.png"> Teléfono<p>Número de teléfono</p></li>
+            <li><img src="img/Icono-mail.png"> Correo Eletrónico<p>Dirección de correo</p></li>
+        </ul>
+      
+        <p class="base">Todos los derechos reservados Front End</p>
+     
     </footer>
 </body>
 </html>
