@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto';
+    margin: 0px;
+}
+
+
+header{
+    box-shadow: 0px 9px 4px 0px rgb(117 117 117);
+}
+
+header div {
+    background-color: #1CD1B0;
+    padding-left: 15px;
+}
+
+h1{
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding-left: 25px;
+    padding-top: 28px;
+    background-color: #00669F;
+    height: 109px;
+    font-weight: 400;
+    
+}
+
+body main {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+main section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+main section article {
+position: relative;
+    width: 40vh;
+   /* height: 600px; */
+    background-color: #F3F3F3;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 20%);
+    margin: 100px 0;
+}
+
+section article img.fondo1{
+    position: relative;
+    width: 100%;
+    
+}
+
+section article div h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+section article div.descripcion2 p{
+    padding: 0 20px;
+   
+} 
+
+.descripcion2{
+    position: relative;
+    z-index: 2;
+}
+
+section article img.avatar3 {
+    border-radius: 50%;
+    position: absolute;
+    width: 120px;
+    left: calc(50% - (120px / 2));
+    top: 20%;
+    z-index: 3;
+    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 20%);
+}
+
+section article .verMas4 {
+    box-sizing: border-box;
+    position: relative;
+    background-color: #00669F;
+    color: #F3F3F3;
+    width: 128.78px;
+    height: 48.52px;
+   left: calc(50% - (128px / 2));
+    z-index: 4;
+    text-align: center;
+    padding-top: 14px;
+    margin: 25px 0;
+}
+
+
+.like5{
+position: absolute;
+left: 20px;
+top: 20px;
+    z-index: 5;
+    
+
+}
+
+footer {
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 16px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 0px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heroes</title>
+    <link href="../css/login-forms.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div>20% de descuento en todos los productos!</div>
+        <h1>Super Tienda de Heroes</h1>
+    </header>
+
+    <main>
+
+
+        <section class="acesso">
+
+            <article>
+                <h2>Registro</h2>
+                <form action="../views/login.html" method="POST">
+                    <p>
+                        <input type="text" name="usuario" placeholder="Usuario">
+                    </p>
+                    <p>
+                        <input type="email" name="correoEletronico" placeholder="Correo Eletrónico">
+                    </p>
+                    <p>
+                        <input type="password" name="contrasena" placeholder="Contraseña">
+                    </p>
+                    <p>
+                        <select name="pais" >
+                            <option value="" selected disabled>Pais</option>
+                            <option value="BR">Brasil</option>
+                            <option value="ARG">Argentina</option>
+                            <option value="COL">Colombia</option>
+                        </select>
+                    </p>
+                    <div class=resetaLadoEnvia>
+                        <button class="resetar" type="reset">Resetar</button>
+                        <button class="enviar" type="submit">Registrar</button>
+                    </div>
+                </form>
+                <p> <a href="login.html">¿Ya tenés una cuenta?</a> Ingresá</p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+
+</body>
+
+</html>
